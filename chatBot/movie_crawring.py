@@ -17,6 +17,7 @@ def job_function():
         title = sphereX.select_one('div.info-movie > a > strong').text.strip()
         print(title + '예매가 오픈되었습니당')
         bot.sendMessage(chat_id=1242107778, text=title + '예매가 오픈되었습니당')
+        sched.pause() # 열린경우에만 보내고 스케줄러 중단한다
     else:
         print('안열림')
         bot.sendMessage(chat_id=1242107778, text='아직 예매가 오픈되지 않았습니다!')
