@@ -270,5 +270,5 @@ dmypy.json
 .pytype/
 
 # 개인적인 제거
-key.py
+chatBot/key.py
 # End of https://www.toptal.com/developers/gitignore/api/macos,pycharm,python
