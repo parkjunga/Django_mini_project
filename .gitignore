@@ -197,7 +197,7 @@ pytestdebug.log
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
-
+chatBot/key.py
 # Flask stuff:
 instance/
 .webassets-cache
@@ -269,6 +269,5 @@ dmypy.json
 # pytype static type analyzer
 .pytype/
 
-# 개인적인 제거
-chatBot/key.py
+
 # End of https://www.toptal.com/developers/gitignore/api/macos,pycharm,python
