@@ -3,7 +3,7 @@ import telegram
 from bs4 import BeautifulSoup
 from apscheduler.schedulers.blocking import BlockingScheduler
 
-bot = telegram.Bot(token='1390302525:AAHfbQVdvUrYrMYSMqACSc62WcErBEJxwSQ')
+bot = telegram.Bot(token='')
 url = 'http://www.cgv.co.kr/common/showtimes/iframeTheater.aspx?areacode=01&theatercode=0059&date=20200813'
 
 # 반복이 필요한 부분은 함수로 선언
