@@ -295,7 +295,7 @@ fabric.properties
 # Translations
 
 # Django stuff:
-chatBot/key.py
+
 # Flask stuff:
 
 # Scrapy stuff:
